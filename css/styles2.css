@@ -50,6 +50,31 @@
 	.navbar-header {
 		display: none; 
 	}
+
+	.pizza {
+	-webkit-transition: all 1.0s ease;
+	-moz-transition: all 1.0s ease;
+	-o-transition: all 1.0s ease;
+	-ms-transition: all 1.0s ease;
+	transition: all 1.0s ease;
+	}
+
+	.pizza:hover {
+	-webkit-transform: scale(1.2) rotate(360deg);
+	-moz-transform: scale(1.2) rotate(360deg);
+	-o-transform: scale(1.2) rotate(360deg);
+	-ms-transform: scale(1.2) rotate(360deg);
+	transform: scale(1.2) rotate(360deg); 
+	}
+
+	.hot:hover,
+	.text:hover {
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2); 
+	}
 }
 
 .pills {
@@ -131,20 +156,8 @@ a:hover {
 	text-align: center;
 	margin: 2.5%;
 	border-radius: 10px;
-	-webkit-transition: all 1.0s ease;
-	-moz-transition: all 1.0s ease;
-	-o-transition: all 1.0s ease;
-	-ms-transition: all 1.0s ease;
-	transition: all 1.0s ease;
 }
 
-.pizza:hover {
-	-webkit-transform: scale(1.5) rotate(360deg);
-	-moz-transform: scale(1.5) rotate(360deg);
-	-o-transform: scale(1.5) rotate(360deg);
-	-ms-transform: scale(1.5) rotate(360deg);
-	transform: scale(1.5) rotate(360deg); 
-}
 
 .frontPizzaFont {
 	margin: 10%;
@@ -175,14 +188,6 @@ a:hover {
 	text-align: center;
 }
 
-.hot:hover,
-.text:hover {
-	-webkit-transform: scale(1.2);
-	-moz-transform: scale(1.2);
-	-o-transform: scale(1.2);
-	-ms-transform: scale(1.2);
-	transform: scale(1.2); 
-}
 
 h1 {
 	text-decoration: underline;
