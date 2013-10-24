@@ -1,0 +1,280 @@
+@import url(http://fonts.googleapis.com/css?family=Slackey);
+@import url(http://fonts.googleapis.com/css?family=Andika);
+@import url(reset.css);
+
+@-webkit-keyframes pulse {
+    0% {
+    	opacity: 0.3;
+    }
+    50%     {opacity: 1;}
+    100%    {opacity: 0.3;}
+}
+@keyframes pulse {
+    0%      {opacity: 0.3;}
+    50%     {opacity: 1;}
+    100%    {opacity: 0.3;}
+}
+         
+
+
+.background {
+	background-image: url(../img/debut_dark.png);
+	font-family: 16px; 
+	font-family: sans-serif;
+}
+
+.box {
+	width: 90%;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	margin: 0 auto;
+	background-image: url(../img/ricepaper.png);
+}
+
+.main-pagebox {
+	background-color: #DCDCE6;
+	margin: 0 auto; /*Horizontal centering*/
+	box-shadow: 1px 1px 3px;
+	margin-bottom: 1em;
+}
+
+@media screen and (max-width: 767px) {
+	.nav-pills {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 767px) {
+	.navbar,
+	.navbar-header {
+		display: none; 
+	}
+}
+
+.pills {
+	text-align: center;
+}
+
+.pill {
+	text-align: center;
+	display: inline-block;
+	margin-left: 10%; 
+	margin-bottom: 1.5em; 
+}
+
+p a {
+	font-family:'Andika', sans-serif;
+	font-size: 25px; 
+	color: #620CE8;
+	padding: 15px;
+}
+
+p a:visited,
+p a:link {
+	text-decoration: none; 
+}
+
+p a:hover {
+	background-color: black;
+	border-radius: 10px; 
+	color: #FFE13D;
+}
+
+.navbar-ex1-collapse {
+	background-color: #DCDCE6;
+	border-radius: 10px;
+}
+
+
+a:hover {
+	color: white;
+}
+
+:focus {
+	background-color: #000; 
+	border-style: solid;
+	border-color: green;
+	border-width: 1px;
+}
+
+
+.img-responsive {
+	position: relative;
+}
+
+.logo {
+	max-width: 80%;
+	margin-left: 10%;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease; 
+	-webkit-animation: pulse 5s infinite;
+	animation: pulse 5s infinite;      
+}
+
+.logo:hover {
+	opacity: 1.0;
+}
+
+.box3 {
+	background-image: url(../img/debut_dark.png);
+	max-width: 90%;
+	border-radius: 5px;
+	margin-left: 5%;
+}
+
+.pizza {
+	max-width: 90%;
+	text-align: center;
+	margin: 2.5%;
+	border-radius: 10px;
+	-webkit-transition: all 1.0s ease;
+	-moz-transition: all 1.0s ease;
+	-o-transition: all 1.0s ease;
+	-ms-transition: all 1.0s ease;
+	transition: all 1.0s ease;
+}
+
+.pizza:hover {
+	-webkit-transform: scale(1.5) rotate(360deg);
+	-moz-transform: scale(1.5) rotate(360deg);
+	-o-transform: scale(1.5) rotate(360deg);
+	-ms-transform: scale(1.5) rotate(360deg);
+	transform: scale(1.5) rotate(360deg); 
+}
+
+.frontPizzaFont {
+	margin: 10%;
+	color: white; 
+	font-size: 18px; 
+	opacity: .5;
+}
+
+.frontPizzaFont:hover {
+	opacity: 1.0;
+}
+
+.hotstuffbox {
+	margin: 5%;
+	border-radius: 5px; 
+	border-width: 1px;
+	border-style: solid;
+	background-color: #DCDCE6;
+	width: 90%;
+}
+
+.hot {
+	font-family:'Slackey', sans-serif;
+}
+
+.hot,
+.text {
+	text-align: center;
+}
+
+.hot:hover,
+.text:hover {
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2); 
+}
+
+h1 {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.breadsticks {
+	max-width: 90%;
+	border-radius: 5px;
+	margin: 2.5%;
+}
+
+.youtube {
+	max-width: 80%;
+	width: 640px;
+	height: 390px; 
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.footer {
+	margin-top: 4em;
+	border-top-style: solid;
+	border-top-width: 1px; 
+	border-top-color: black;   
+}
+
+
+/*Menu*/
+
+.menu {
+	font-family: 'Andika', sans-serif;
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: .5em;
+}
+
+.types {
+	font-family: sans-serif;
+	font-size: 26px;
+	text-align: center;
+}
+
+.sizes {
+	text-align: center;
+}
+
+.pic {
+	background-image: url(../img/debut_dark.png);
+	max-width: 85%;
+	border-radius: 10px; 
+	margin-left: 7.5%;
+	margin-bottom: 1em;
+}
+
+.menuPic {
+	max-width: 90%;
+	margin: 5%;
+	border-radius: 10px;
+}
+
+.item {
+	font-size: 24px; 
+	font-weight: bold; 
+	font-family: 'Andika', sans-serif;
+	margin-bottom: .5em; 
+}
+
+.meat {
+	text-decoration: underline; 
+	font-style: italic; 
+	font-size: 18px; 
+	margin-bottom: .2em;
+}
+
+.ing {
+	margin-bottom: 1em; 
+}
+
+/*About*/
+
+.aboutdp {
+	text-align: center;
+}
+
+.twitter {
+	max-width: 25px;
+}
+
+.call {
+	font-family: sans-serif;
+	font-size: 14px; 
+}
